@@ -24,3 +24,36 @@
   margin: 0;
   color: #121612
 }
+.row {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+}
+
+.column {
+  flex: 100%;
+  max-width: 50%;
+  padding: 0 4px;
+  align-self: center;
+}
+
+.column img {
+  margin-top: 8px;
+  align-content: stretch;
+  width: 32%;
+}
+
+.btn1 {
+  width: 200px;
+  height: 50px;
+  border: none;
+  
+}
+
+
+
+
+
+
+
