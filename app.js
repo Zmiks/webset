@@ -20,3 +20,5 @@ var App = {
     return 'App name is: ' + this.name + " , version is: " + this.version;
   }
 };
+
+asyncLoad("src/myComponents/gallery.js")
