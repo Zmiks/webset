@@ -11,33 +11,31 @@
 <body>
 
   <div class="headerContainer">
-    <h1>I AM HEADER</h1>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+    
+    <!-- Tab content -->
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
   </div>
 
   <div class="bodyContainer">
-    <div id="gal" class="row">
-      <div class="column">
-        <img src="assets/images/fr1.jpg">
-        <img src="assets/images/fr2.jpg">
-        <img src="assets/images/fr3.jpg">
-      </div>
-      <div class="column">
-        <img src="assets/images/fr4.jpg">
-        <img src="assets/images/fr5.jpg">
-        <img src="assets/images/fr6.jpg">
-      </div>
-      <div class="column">
-        <img src="assets/images/fr7.jpg">
-        <img src="assets/images/fr8.jpg">
-        <img src="assets/images/fr9.jpg">
-      </div>
-    </div>
 
-    <div class="myCenter">
-      <button class="button" type="button" onclick="showHideGallery()">Hide Galery</button>
-    </div>
-
-  </div>
 
   <div class="footerContainer">
     <h1>Copyright webSet 2021</h2>
