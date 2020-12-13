@@ -60,11 +60,6 @@
   opacity: 0.5;
 }
 
-.button1 {
-  width: 200px;
-  height: 50px;
-  border: none;
-}
 
 .myCenter {
   width: 100%;
@@ -73,42 +68,45 @@
   flex-direction: column;
   align-items: center;
 }
-.tab {
+.topnav {
+  background-color: #333;
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
+
+.topnav a {
   float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
   padding: 14px 16px;
-  transition: 0.3s;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
+
+.topnav a:hover {
   background-color: #ddd;
+  color: black;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
+
+.topnav a.active {
+  background-color: #168585;
+  color: white;
 }
 
-/* Style the tab content */
-.tabcontent {
+
+.topnav .icon {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }
-
-
-
-
-
+#row1 {
+  content: "";
+  display: table;
+  clear: both;
+}
+#column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
