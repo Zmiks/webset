@@ -22,7 +22,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 200px;
   align-items: center;
   background: rgb(136, 136, 136);
   margin: 0;
@@ -65,7 +65,7 @@
   width: 100%;
   height:auto;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 .topnav {
@@ -92,7 +92,7 @@
 
 
 .topnav a.active {
-  background-color: #168585;
+  background-color: #0e6d6d;
   color: white;
 }
 
@@ -108,5 +108,4 @@
 #column1 {
   float: left;
   width: 25%;
-  padding: 10px;
 }
