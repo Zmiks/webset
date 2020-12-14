@@ -109,6 +109,7 @@
   float: left;
   width: 33%;
 }
-#btn
+#btn {
 width: 100px;
 height: 25px;
+}
