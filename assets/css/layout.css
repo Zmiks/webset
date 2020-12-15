@@ -110,7 +110,7 @@
   width: 33%;
 }
 .btn {
-padding-top: 25%;
+float:right;
 width: 100px;
 height: 25px;
 }
