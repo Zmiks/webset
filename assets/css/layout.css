@@ -110,7 +110,9 @@
   width: 33%;
 }
 .btn {
-  display:inline-block;
+  position:absolute;
+  left: 50px;
+  top: 220px;
   width: 100px;
   height: 25px;
 }
