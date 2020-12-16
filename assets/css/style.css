@@ -10,4 +10,18 @@ body {
 
 
 
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 100px;
+  height: 25px;
+}
 
