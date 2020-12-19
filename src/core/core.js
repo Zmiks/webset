@@ -18,3 +18,21 @@ function asyncLoad(path, callback) {
   }
 
 }
+
+function openFullscreen(nameOfCurrentElement) {
+
+  try {
+      
+    var elem = document.getElementById(nameOfCurrentElement);
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { 
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { 
+      elem.msRequestFullscreen();
+    }
+  } catch (err) {
+    console.log("Something wrong with openFullscreen. Value of arg nameOfCurrentElement is :" + nameOfCurrentElement)
+  }
+
+}
